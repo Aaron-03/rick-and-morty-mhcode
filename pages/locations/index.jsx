@@ -1,6 +1,5 @@
-import React, { useContext, useEffect } from 'react';
-import Layout from '../../src/Layout/Layout';
-import { LocationContext } from '../../src/contexts/location.context';
+import React from 'react';
+import Layout from '../../src/layout/Layout';
 import LocationProvider from '../../src/providers/location.provider';
 import LocationList from '../../src/components/location/LocationList';
 
