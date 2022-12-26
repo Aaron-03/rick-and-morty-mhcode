@@ -1,0 +1,25 @@
+.header {
+  background-color: #023047;
+  color: black;
+  text-align: center;
+}
+
+.main {
+  margin-bottom: 4em;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+
+  &.active {
+    color: #e9c46a;
+  }
+}

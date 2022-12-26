@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  background-color: #e9c46a;
+  color: #023047;
+  font-weight: bold;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    margin-left: 0.5em;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  span {
+    color: #e76f51;
+    font-size: 18pt;
+    margin-left: 0.25em;
+    margin-bottom: 0.1em;
+  }
+}

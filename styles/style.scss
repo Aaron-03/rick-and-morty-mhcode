@@ -1,0 +1,13 @@
+// Base
+@import './base/reset';
+
+// Components
+@import './components/texts';
+@import './components/characters';
+@import './components/locations';
+@import './components/episodes';
+@import './components/pagination';
+
+// Layout
+@import './layout/header';
+@import './layout/footer';
