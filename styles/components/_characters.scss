@@ -17,10 +17,20 @@
   &-img {
     position: relative;
     height: 100%;
+
+    @include mobile {
+      width: 100%;
+      height: auto;
+    }
   }
 
   &-cover {
     height: 100%;
+
+    @include mobile {
+      height: initial;
+      width: 100%;
+    }
   }
 
   &:hover .character-alive {
@@ -29,6 +39,12 @@
 
   &:hover .character-alive .character-alive-alert {
     transform: scale(0.5);
+  }
+
+  @include mobile {
+    flex-direction: column;
+    width: 21em;
+    height: auto;
   }
 }
 
@@ -72,7 +88,7 @@
 .character-name {
   display: block;
   color: white;
-  font-size: 18pt;
+  font-size: 16pt;
   margin-bottom: 0.5em;
   border: none;
   background-color: transparent;
@@ -145,7 +161,7 @@
   width: 18em;
   height: auto;
   border-radius: 0.5em;
-  background-color:#023047;
+  background: linear-gradient(to left top, #023047 80%, #e9c46a);
 
   &-content {
     position: relative;

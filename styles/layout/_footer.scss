@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1em;
+  padding: 0.25em 1em;
   background-color: #e9c46a;
   color: #023047;
   font-weight: bold;
@@ -27,5 +27,9 @@
     font-size: 18pt;
     margin-left: 0.25em;
     margin-bottom: 0.1em;
+  }
+
+  @include mobile {
+    font-size: 10pt;
   }
 }
